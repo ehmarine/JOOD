@@ -1,0 +1,39 @@
+footer {
+    background-color: #1487FD;
+    background-image: ;
+}
+
+.logo-nav {
+    width: 70%;
+}
+
+.logotype span {
+    color: #FFBB00;
+}
+
+.logo-item a {
+color: #fff;
+font-size: 1.3rem;
+text-decoration: none;
+transition: 500ms all;
+}
+
+.logo-item a:hover {
+    color: #FFBB00;
+}
+
+.logo-img {
+    width: 30%;
+}
+
+.img-item {
+    margin: 0 0.8rem;
+}
+.img-item img {
+    transition: all 1000ms;
+}
+
+.img-item img:hover {
+    background-color: #FFBB00;
+    border-radius: 1rem;
+}

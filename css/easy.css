@@ -1,0 +1,122 @@
+#easy {
+    background-color: #f5f5f559;
+    z-index: -100;
+}
+
+ #easy p {
+    padding-top:0;
+}
+
+.search {
+    padding-top: 5rem;
+}
+
+.easy-content {
+    z-index:5 ;
+}
+
+
+.col-section {
+    margin-top: 2.2rem;
+}
+
+.icon-img {
+ margin-right: 1rem;
+}
+
+
+#section .search-info {
+    width: 100%;
+}
+
+.column {
+    font-family: 'roboto';
+}
+
+.column h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.column p {
+    font-size: 0.8rem;
+    padding-top: 0;
+    margin-top: 1rem;
+}
+
+.extended-dots {
+    z-index: 5;
+    position: absolute;
+    top: 5rem;
+    left: -60rem;
+    height: 22rem;
+
+}
+
+.easy-img img {
+    height: 90%;
+}
+
+.iphone {
+    height: 40rem;
+    position: relative;
+    z-index: 5;
+    padding-bottom: 5rem;
+}
+
+
+.iphone-rotate {
+    height: 32rem;
+    position: absolute;
+    z-index: 4;
+    transform: rotate(325deg);
+    top: 0;
+    left: -5rem;
+}
+
+.circle-img {
+    z-index: 3;
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    height: 15rem;
+}
+
+.blue-dot-img {
+    z-index: 2;
+    position: absolute;
+    top: 16rem;
+    left:-6rem;
+}
+
+.dotted-img {
+    z-index: 1;
+    position: absolute;
+    top: 18rem;
+    left: -3rem;
+}
+
+
+
+    @media (min-width: 992px) {
+        #easy .search-info {
+            width:100%;
+        }
+    
+        .easy-search {
+            width: 80%;
+        }
+    
+        .col-section {
+            justify-content: start;
+            width: 80%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    
+        .easy-img {
+            position: relative;
+            width: 50%;
+            height: 30%;
+        }
+    }

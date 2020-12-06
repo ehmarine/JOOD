@@ -1,0 +1,31 @@
+
+.form .container {
+    margin-bottom: 6rem;
+}
+
+.form-control{
+    
+    background-color: #FBFBFB;
+    border:none ;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #d1cfcf;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #CCCCCC;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #CCCCCC;
+}
+
+.form-button {
+
+    padding:0.8rem 4rem !important;
+    border-radius: 0.8rem !important;
+}
+
+/* color: #CCCCCC; */
